@@ -1,0 +1,11 @@
+#version 330
+
+in vec4 posAttr;
+
+uniform mat4 matrix;
+uniform float factor;
+
+void main()
+{
+    gl_Position = matrix * posAttr;
+}

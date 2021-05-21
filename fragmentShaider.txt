@@ -1,0 +1,11 @@
+#version 330
+
+out highp vec4 fragColor;
+
+//varying vec4 color;
+uniform vec4 color;
+
+void main()
+{
+    fragColor = color;
+}
